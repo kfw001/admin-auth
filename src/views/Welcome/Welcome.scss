@@ -1,0 +1,27 @@
+@import '~scss_vars';
+
+.content {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      line-height: 2;
+    }
+  }
+  .footer-logo {
+    margin: 30% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .text {
+      color: #656565;
+    }
+    .logo {
+      width: 420px;
+      height: 120px;
+      opacity: 0.1;
+    }
+  }
+}
