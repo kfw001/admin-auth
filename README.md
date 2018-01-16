@@ -1,7 +1,5 @@
 # 快房传媒后台管理系统（带权限版）
 
-> [无权限版本](http://git.kfw001.com:9090/dev-template/admin-no-auth)
-
 ## 代码风格
 
 本项目遵循 [`Javascript Standard Style`](https://standardjs.com/readme-zhcn.html)
