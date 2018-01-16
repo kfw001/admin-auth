@@ -133,10 +133,10 @@ const baseUrl = systems.debug ? '/api/' : 'http://api.kfw001.com/'
 > 由于本模板需要权限校验，所以菜单和路由设置略复杂。为了方便本地调试，`src/plugins/store/actions/index.js` 文件中 `getUserAuth` 方法里请将 `// for test mock` 下方代码注释，并开启上方 `// for server` 下的代码。
 
 ### 路由设置
-
+
 > 用户在访问路由前，都会判断并请求服务器的权限数据接口，返回两个字段，一个是 `auth` 一个是 `nav`。
 
-路由中需配置 `meta` 字段
+路由中需配置 `meta` 字段
 
 ```
 meta: {requiresAuth: true, alias: 'Admin/Demo/list'}
